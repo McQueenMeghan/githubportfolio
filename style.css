@@ -1,0 +1,176 @@
+@@ -0,0 +1,237 @@
+ /*GLOBAL*/
+
+body {
+ width: 100%;
+ height: 100%;
+ background-image: url("https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+ .dropdown-header {
+   font-size: 20px;
+   font-family: 'Spectral';
+   color: black;
+   padding-bottom: 1px;
+ }
+
+ .dropdown-menu {
+   padding-bottom: 1px;
+   padding-top: 2px;
+ }
+
+ p{
+  text-align: left;
+  margin: 1.5% 0;
+  color:#0A0E1A;
+  font-family: 'Spectral';
+  font-size: 25px;
+ }
+
+ .row{
+  box-sizing: border-box;
+ }
+
+a:hover {
+ text-decoration: none;
+ }
+
+ a {
+   color:#0A0E1A;
+ }
+
+ /*NAV*/
+ .navbar.navbar-default.navbar-static-top {
+   background-color: #0A0E1A;
+   opacity: 0.9;
+   border: none;
+   margin-bottom: 0;
+   position: fixed;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   font-family:'Kumar One';
+   font-size: 25px;
+ }
+
+ /*BODY*/
+ .parallax {
+   background-image: url("https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg");
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+
+ div.container {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color:#EFE1C4;
+}
+
+ .hi {
+   display: flex;
+   flex-direction: column;
+ }
+
+ p {
+   font-family: 'Spectral';
+   font-size: 25px;
+ }
+
+ h3 {
+   font-size: 30px;
+   font-family: 'Kumar One';
+ }
+
+ h4 {
+   color: #0A0E1A;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   font-family: 'Spectral';
+   font-size: 30px;
+ }
+
+ ul {
+   font-family: 'Spectral';
+   font-size: 25px;
+ }
+
+/*WELCOME BUTTON*/
+ .btn {
+   border: 1px solid #0A0E1A;
+   width: auto;
+   font-size: 45px;
+   font-family: 'Kumar One';
+ }
+
+ .btn:hover {
+   background-color: #EFE1C4;
+   color: #000;
+   transition-duration: 2s;
+ }
+
+ /*ABOUT SECTION*/
+ .about{
+   display: flex;
+   flex-direction: column;
+   color: #0A0E1A;;
+ }
+
+ #aboutMe{
+   font-size: 40px;
+ }
+
+ .aboutHeader > p{
+   width: 70%;
+   display: flex;
+   justify-content: center;
+   font-size: 25px;
+ }
+
+ .aboutHeader{
+   text-align: center;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #0A0E1A;
+   font-family: 'Kumar One';
+   font-size: 25px;
+ }
+
+ /* PORTFOLIO */
+ .portfolio{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 0;
+   height: 200px;
+   background-color: #fff;
+   color: #0A0E1A;
+   font-family: 'Kumar One';
+   font-size: 30px;
+ }
+
+ .portfolio p {
+   width: 100%;
+   text-align: center;
+   color: #0A0E1A;
+   font-family: 'Kumar One';
+   font-size: 30px;
+ }
+
+ div.container-fluid{
+   padding: 0;
+   margin: 0 auto;
+ }
